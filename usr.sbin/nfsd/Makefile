@@ -4,4 +4,6 @@
 PROG=	nfsd
 MAN=	nfsd.8 nfsv4.4 stablerestart.5
 
+LIBADD+=util
+
 .include <bsd.prog.mk>
